@@ -15,7 +15,7 @@
 <body>
 
 	<div id="landing">
-		<nav class="navbar navbar-expand-lg navbar-light bg-danger d-lg-flex justify-content center">
+		<nav class="navbar navbar-expand-lg navbar-light bg-danger">
 		  <a class="navbar-brand" href="#landing">HOME</a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
@@ -28,40 +28,127 @@
 		    </div>
 		  </div>
 		</nav>
-		<div class="container-fluid bg-primary text-light min-vh-100 p-3 p-md-5">
-			<img src="./images/me.jpg" width="250" class="mt-5 mt-md-0 rounded-circle">
-
-			<h1>Jimboy N. Antipolo</h1>
-			<h3>Full-Stack Web Developer</h3>
-			<div>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
-				
-			</div>			
+		<div class="col-sm-12 col-md-6 container-fluid text-center p-3 mx-auto my-4 bg-image">
+			<div class="container-fluid text-light p-3 p-md-5">
+				<div>
+					<img src="./images/me.jpg" width="250" class="mt-5 mt-md-0 rounded-circle">
+				</div>
+				<div class="pt-5">
+					<h1>Jimboy N. Antipolo</h1>
+				</div>
+				<div>
+					<h4>Full-Stack Web Developer</h4>
+				</div>
+			</div>		
 		</div>		
 	</div>
 
+	<!-- Start of Projects Section -->
 	<div id="projects">
-		<h2>PROJECTS</h2>
-		
+
+		<div class="bg-secondary text-light p-3 text-center">
+			<h2 class="mb-3 text-center">PROJECTS</h2>
+			<div class="p-md-5 d-lg-flex justify-content-center">
+				<!-- First Project Start -->
+				<div class="card bg-dark col-xl-4 mb-5 mb-xl-0">
+				  <div class="card-body">
+				  	<img src="./images/coding.jpg" class="img-fluid">
+				    <h5 class="card-title mt-3">Coding Best Practices</h5>
+				    <p class="card-text">
+				    	Think of coding standards as a set of rules, techniques, and best practices to create cleaner, more readable, more efficient code with minimal errors. They offer a uniform format by which software engineers can use to build sophisticated and highly functional code.
+				    </p>
+				  </div>
+				</div>
+				<!-- First Project End -->
+
+				<!-- Second Project Start -->
+				<div class="card bg-dark col-xl-4 mb-5 mb-xl-0 mx-xl-5">
+				  <div class="card-body">
+				  	<img src="./images/e-commerse.png" class="img-fluid">
+				    <h5 class="card-title mt-3">E Commerse</h5>
+				    <p class="card-text">
+				    	E-Commerce, also known as e-Business, or electronic business, is simply the sale and purchase of services and goods over an electronic medium, like the Internet.
+				    </p>
+				  </div>
+				</div>
+				<!-- Third Project End -->
+
+				<!-- Third Project Start -->
+				<div class="card bg-dark col-xl-4 mb-5 mb-xl-0">
+				  <div class="card-body">
+				  	<img src="./images/nodejs.png" class="img-fluid">
+				    <h5 class="card-title mt-3">Node JS</h5>
+				    <h6 class="card-subtitle mb-2 text-muted">Backend Basics</h6>
+				    <p class="card-text">
+				    	SEO stands for “search engine optimization.” In simple terms, it means the process of improving your site to increase its visibility when people search for products or services related to your business in Google, Bing, and other search engines.
+				    </p>
+				  </div>
+				</div>
+				<!-- Third Project End -->
+			</div>
+		</div>
 	</div>
+		<!-- End of Projecst Section -->
 
 	<div id="tools">
-		<h2>TOOLS</h2>
-		
+		<div class="container-fluid p-3 text-center">
+			<h2 class="mt-5 text-center">TOOLS</h2>
+			<div id="tools-1" class="d-flex flex-md-column justify-content-center">
+			    <div id="tools-1" class="flex-md-column justify-content-center">
+			        <img width="150" src="images/logo-mongodb.png"/>
+			        <img width="150" src="images/logo-nodejs.png"/>
+			        <img width="150" src="images/logo-html5.png"/>
+			        <img width="150" src="images/logo-react.png"/>
+			        <img width="150" src="images/logo-javascript.png"/>
+			    </div>
+			    <div id="tools-2" class="flex-md-column justify-content-center">
+			        <img width="150" src="images/logo-git.png"/>
+			        <img width="150" src="images/logo-sublime-text-3.png"/>
+			        <img width="150" src="images/logo-react.png"/>
+			        <img width="150" src="images/logo-gitlab-ci-cd.png"/>
+			    </div>
+			</div>
+		</div>		
 	</div>
 
 	<div id="contact">
-		<h2>CONTACT</h2>
-		
+
+		<div id="contact-section" class="container-fluid bg-dark text-light p-5">
+			<h2 class="mt-3 text-center">CONTACT ME</h2>
+			<div class="row mt-3 justify-content-center">
+				<div class="col-12 col-md-8 col-xl-4 bg-primary">
+					<form class="pt-3" id="form-col">
+						<div class="form-group">
+					    <label for="exampleInputPassword1">Name</label>
+					    <input type="text" class="form-control" id="exampleInputPassword1">
+					  </div>
+					  <div class="form-group">
+					    <label for="exampleInputEmail1">Email address</label>
+					    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+					  </div>
+					  <div class="form-group">
+					    <label for="contact-number">Contact Number</label>
+					    <input type="number" class="form-control" id="contact-number">
+					  </div>
+					  <div class="form-group">
+					    <label for="message">Message</label>
+					    <textarea class="form-control" rows="6" id="exampleFormControlTextarea1" rows="3"></textarea>
+					  </div>
+					  <button type="button" class="btn btn-dark mb-3"
+					  data-target="#modalDiv">Send</button>
+					</form>
+				</div>
+			</div>
+		</div>		
 	</div>
 
+	<footer>
+		<div class="d-flex justify-content-center m-3">
+			<div class="mx-5">Terms of Service</div>
+			<div class="mx-5">Privacy Policy</div>
+			<div class="mx-5">&copy; 2022 All Rights Reserved</div>
+		</div>
+	</footer>
 
 	<!-- JS Bundle -->
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

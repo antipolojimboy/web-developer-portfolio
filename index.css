@@ -9,3 +9,35 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 }
+
+.-text-center{
+	text-align: center;
+}
+
+.text-light {
+	color: white;
+}
+
+.p-3 {
+	padding: 15px;
+}
+
+.bg-danger {
+	background-color: darkred;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.justify-content-center {
+	justify-content: center;
+}
+
+.bg-image {
+	background-image: url(https://static.vecteezy.com/system/resources/thumbnails/002/418/769/small/abstract-red-background-free-vector.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
