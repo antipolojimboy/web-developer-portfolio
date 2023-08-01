@@ -10,7 +10,46 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
-.-text-center{
+#navName {
+	font-family: 'Belanosima', sans-serif;
+	color: cyan;
+}
+
+#nameId {
+	font-family: 'Belanosima', sans-serif;
+	font-size: 95px;
+	color: cyan;
+}
+
+#headerIntro {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+}
+
+#paragraphIntro {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+}
+
+#projectsId {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: cyan;
+}
+
+#toolsId {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: cyan;
+}
+
+#contactId {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: cyan;
+}
+
+.text-center{
 	text-align: center;
 }
 
@@ -35,9 +74,27 @@ body {
 }
 
 .bg-image {
-	background-image: url(https://static.vecteezy.com/system/resources/thumbnails/002/418/769/small/abstract-red-background-free-vector.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://img.freepik.com/free-photo/abstract-textured-backgound_1258-30439.jpg?w=1380&t=st=1688286106~exp=1688286706~hmac=8d0bd8783723103045727550a8de314580f972953683b976f90dc485411ca7e1);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	background-attachment: fixed;
+}
 
+.mx-lg-3 {
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.mx-2 {
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;	
+}
+
+.rounded-circle {
+	border-radius: 50%;
+}
+
+.border {
+	border: 1px solid white;
 }
